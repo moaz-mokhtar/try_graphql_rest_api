@@ -6,8 +6,7 @@ use r2d2::Pool;
 use std::env;
 
 pub type DbPool = Pool<ConnectionManager<PgConnection>>;
-// The Postgres-specific connection pool managing all database connections.
-// pub type PostgresPool = Pool<ConnectionManager<PgConnection>>;
+
 
 pub struct DbClientConn;
 impl DbClientConn {

@@ -2,6 +2,8 @@
 extern crate diesel;
 extern crate diesel_migrations;
 
+extern crate juniper;
+
 pub mod db;
 pub mod engine;
 pub mod entity;
